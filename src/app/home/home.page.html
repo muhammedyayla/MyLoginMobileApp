@@ -1,20 +1,61 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Blank
+      Muhammet Yayla
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-card>
+    <img alt="DT Logo" src="assets/myhomelogo.jpg" />
+    <ion-card-header>
+      <ion-card-title>Introduction</ion-card-title>
+      <ion-card-subtitle>Muhammet Yayla Blog</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Hello, I'm 19 years old and living in Turkey.
+     I'm a student of computer programming in Istanbul. I'm interested in Front-end web development.
+    </ion-card-content>
+  </ion-card>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>My Web Projects</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item href="https://muhammedyayla.github.io/Psychology-Blog-Site/" style="text-decoration: none;">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="assets/page-mini-logo.png" />
+          </ion-thumbnail>
+          <ion-label>Duhan Therapy</ion-label>
+        </ion-item>
+  
+        <ion-item href="https://muhammedyayla.github.io/OTP-Code-Verification/">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="assets/shield-check-icon.png" />
+          </ion-thumbnail>
+          <ion-label>Code Verification</ion-label>
+        </ion-item>
+  
+        <ion-item href="https://muhammedyayla.github.io/PawLoginPage/">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="assets/dog-icon.png" />
+          </ion-thumbnail>
+          <ion-label>Paw login page</ion-label>
+        </ion-item>
+  
+        <ion-item href="https://muhammedyayla.github.io/Psychology-Blog-Site-2/" lines="none">
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="assets/ds-logo.png" />
+          </ion-thumbnail>
+          <ion-label>Duhan Therapy 2</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+
 </ion-content>

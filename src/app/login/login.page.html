@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="font-size: small;">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img style="height: 13%; width: 13%; display: flex; margin-left: 45%;" alt="DT Logo" src="assets/my.png" />
+    <ion-card-header style="width: 50%;">
+      <ion-card-title>Login</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-input id="txtuname" placeholder="Username"></ion-input>
+      </ion-item>
+      <br>
+      <ion-item>
+        <ion-input id="pwd" placeholder="Password" type="Password"></ion-input>
+      </ion-item>
+      <br>
+      <br>
+      <ion-button id="loginBtn" (click)="logMeIn()">Login</ion-button>
+      <ion-button (click)="signMeUp()">Sign Up</ion-button>
+      <ion-button id="forgotPassBtn" (click)="forgotPass()">Forgot Password</ion-button>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>
